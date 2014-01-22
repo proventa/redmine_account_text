@@ -1,0 +1,15 @@
+<div class="box tabular settings">
+<p>
+    <%= content_tag(:label, l(:label_account_text_label)) %>
+    <%= text_field_tag("settings[account_text_label]",@settings['account_text_label'])  %>
+</p>
+<p>
+    <%= content_tag(:label, l(:label_account_text)) %>
+    <%=
+      text_area_tag("settings[account_text]",@settings['account_text'],
+                 :size => '60x5')
+    %>
+    <%= wikitoolbar_for 'settings_account_text' %>
+</p>
+
+</div>

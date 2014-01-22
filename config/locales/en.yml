@@ -1,3 +1,5 @@
 # English strings go here for Rails i18n
 en:
   # my_label: "My label"
+  label_account_text: "Account page text"
+  label_account_text_label: "Account page text label"
